@@ -1,18 +1,10 @@
 services:
-  api:
+  server:
     container_name: explore-go-templ
     build:
       context: .
-      target: api-dev
+      target: server-dev
     volumes:
       - ./:/app
     ports:
       - "8080:8080"
-
-  generate-template:
-    container_name: explore-go-templ-generate
-    build:
-      context: .
-      target: generate-templ
-    volumes:
-      - ./:/app
