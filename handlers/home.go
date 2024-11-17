@@ -4,10 +4,10 @@ import (
 	"net/http"
 
 	"github.com/a-h/templ"
-	"github.com/bwcroft/explore-go-temple/views"
+	"github.com/bwcroft/explore-go-temple/components"
 )
 
 func HomePage() http.Handler {
-  comp := views.Home("Bob")
-  return templ.Handler(comp)
+	comp := components.Home()
+	return templ.Handler(comp)
 }

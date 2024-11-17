@@ -1,0 +1,27 @@
+package components
+
+const (
+	ColorPortage    = "#8c93f7"
+	ColorPerano     = "#A9AEF9"
+	ColorMelrose    = "#BDACFB"
+	ColorPerfume    = "#D0B9F6"
+	ColorMoonRaker  = "#E1DEF8"
+	ColorNightShadz = "#AD394A"
+	ColorGallery    = "#EEEEEE"
+	ColorSilver     = "#BBBBBB"
+	ColorJade       = "#00AD51"
+	ColorTundora    = "#474747"
+	ColorPrimary    = "#8c93f7"
+	ColorSecondary  = "#A9AEF9"
+	ColorDanger     = "#AD394A"
+	RadiusXS        = "4px"
+	RadiusSM        = "6px"
+	RadiusMD        = "8px"
+	RadiusLG        = "10px"
+	RadiusXL        = "12px"
+	BreakPointXS    = "476px"
+	BreakPointSM    = "600px"
+	BreakPointMD    = "960px"
+	BreakPointLG    = "1280px"
+	BreakPointXL    = "1920px"
+)

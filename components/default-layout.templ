@@ -1,0 +1,13 @@
+package components
+
+templ DefaultLayout(title string) {
+	<html>
+		<head>
+			<title>{ title }</title>
+			<meta name="viewport" content="width=device-width"/>
+		</head>
+		<body>
+			{ children... }
+		</body>
+	</html>
+}
